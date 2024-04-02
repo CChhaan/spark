@@ -1,0 +1,37 @@
+a {
+  text-decoration: none;
+  color: #ABB3AE;
+}
+.playIcon {
+  position: relative;
+  bottom: 20rem;
+  text-align: center;
+  font-size: 10rem;
+}
+.playIcon .Icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #47FE34;
+  height: 69rem;
+  width: 71rem;
+  font-size: 45rem;
+  color: #fff;
+}
+.Bottom {
+  position: fixed;
+  bottom: -8rem;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 99999;
+  background-color: #fff;
+}
+.Bottom ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60rem;
+  padding-bottom: 5rem;
+}

@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+}
+.container .icon {
+  color: #ABB3AE;
+  font-size: 20rem;
+}
+.container .text {
+  margin-top: 4rem;
+  font-size: 10rem;
+}
+.containerActive {
+  text-align: center;
+}
+.containerActive a {
+  color: #47FE34;
+}
+.containerActive .icon {
+  color: #47FE34;
+  font-size: 20rem;
+}
+.containerActive .text {
+  margin-top: 4rem;
+  font-size: 10rem;
+}
