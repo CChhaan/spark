@@ -1,0 +1,60 @@
+// 顶部导航栏
+
+.HomePTopNav {
+  position: sticky;
+  top: 0rem;
+  z-index: 999;
+  height: 45rem;
+  padding: 10rem 10rem;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(71, 254, 52, 1);
+
+  // logo部分-左
+  .logo {
+    width: 104rem;
+    height: 28rem;
+    font-size: 0;
+    background: url(../../../Assets/logo2.png) no-repeat #fff;
+    background-size: contain;
+    border-radius: 10rem;
+    overflow: hidden;
+
+    h1 {
+      font-size: 0;
+    }
+  }
+
+  // 首页+短视频-中
+  a,
+  span {
+    color: #fff;
+    font-size: 16rem;
+    margin: 0 7rem;
+  }
+
+  .active {
+    font-size: 20rem;
+    font-weight: 700;
+  }
+
+  // 搜索部分-右
+  .search {
+    width: 87rem;
+    height: 28rem;
+    line-height: 28rem;
+    border-radius: 20rem;
+    background-color: rgba(0, 0, 0, .05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16rem;
+    color: #fff;
+
+    .txt {
+      padding-right: 10rem;
+    }
+  }
+}

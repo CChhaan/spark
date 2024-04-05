@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ShortVideo = () => {
+const RecordVedio = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const ShortVideo = () => {
   )
 }
 
-export default ShortVideo
+export default RecordVedio

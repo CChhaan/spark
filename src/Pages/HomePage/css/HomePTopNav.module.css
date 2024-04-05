@@ -1,0 +1,49 @@
+.HomePTopNav {
+  position: sticky;
+  top: 0rem;
+  z-index: 999;
+  height: 45rem;
+  padding: 10rem 10rem;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #47fe34;
+}
+.HomePTopNav .logo {
+  width: 104rem;
+  height: 28rem;
+  font-size: 0;
+  background: url(../../../Assets/logo2.png) no-repeat #fff;
+  background-size: contain;
+  border-radius: 10rem;
+  overflow: hidden;
+}
+.HomePTopNav .logo h1 {
+  font-size: 0;
+}
+.HomePTopNav a,
+.HomePTopNav span {
+  color: #fff;
+  font-size: 16rem;
+  margin: 0 7rem;
+}
+.HomePTopNav .active {
+  font-size: 20rem;
+  font-weight: 700;
+}
+.HomePTopNav .search {
+  width: 87rem;
+  height: 28rem;
+  line-height: 28rem;
+  border-radius: 20rem;
+  background-color: rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16rem;
+  color: #fff;
+}
+.HomePTopNav .search .txt {
+  padding-right: 10rem;
+}

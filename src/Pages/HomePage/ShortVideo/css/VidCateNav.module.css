@@ -1,0 +1,13 @@
+.VidCateNav ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 12rem 0;
+}
+.VidCateNav ul li {
+  font-size: 18rem;
+}
+.VidCateNav ul .typeli {
+  font-weight: bold;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #47fe34;
+}

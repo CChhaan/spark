@@ -1,0 +1,50 @@
+.IndexModNav {
+  height: 95rem;
+  width: 355rem;
+  background-color: #fff;
+  margin: 12rem;
+  border-radius: 20px 20px 0px 0px;
+
+  .nav {
+    width: 324rem;
+    height: 62rem;
+    margin: 15rem auto;
+    overflow-x: scroll;
+
+    ul {
+      width: 400rem;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    img {
+      width: 35rem;
+    }
+
+    a {
+      font-size: 14rem;
+
+      color: #000;
+    }
+  }
+
+  // 和第一个导航栏绑定的滚动条
+  .scroll {
+    height: 3rem;
+    width: 40rem;
+    background-color: rgba(229, 229, 229, 1);
+    margin: 0 auto;
+    border-radius: 3rem;
+
+    .scrollInner {
+      height: 3rem;
+      width: 20rem;
+      background-color: rgba(67, 207, 124, 1);
+    }
+  }
+
+}

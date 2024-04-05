@@ -1,0 +1,8 @@
+.IndexAds {
+  display: block;
+  background: url(../../../../Assets/ads.png) no-repeat center / contain;
+  width: 340rem;
+  height: 90rem;
+  border-radius: 10rem;
+  margin: 0 17rem;
+}

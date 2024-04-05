@@ -1,0 +1,40 @@
+.IndexModNav {
+  height: 95rem;
+  width: 355rem;
+  background-color: #fff;
+  margin: 12rem;
+  border-radius: 20px 20px 0px 0px;
+}
+.IndexModNav .nav {
+  width: 324rem;
+  height: 62rem;
+  margin: 15rem auto;
+  overflow-x: scroll;
+}
+.IndexModNav .nav ul {
+  width: 400rem;
+  display: flex;
+  justify-content: space-between;
+}
+.IndexModNav .nav::-webkit-scrollbar {
+  display: none;
+}
+.IndexModNav .nav img {
+  width: 35rem;
+}
+.IndexModNav .nav a {
+  font-size: 14rem;
+  color: #000;
+}
+.IndexModNav .scroll {
+  height: 3rem;
+  width: 40rem;
+  background-color: #e5e5e5;
+  margin: 0 auto;
+  border-radius: 3rem;
+}
+.IndexModNav .scroll .scrollInner {
+  height: 3rem;
+  width: 20rem;
+  background-color: #43cf7c;
+}
