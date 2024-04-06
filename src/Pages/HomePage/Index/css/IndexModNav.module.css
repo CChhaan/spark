@@ -8,7 +8,7 @@
 .IndexModNav .nav {
   width: 324rem;
   height: 62rem;
-  margin: 15rem auto;
+  padding: 14rem 15.5rem 10rem;
   overflow-x: scroll;
 }
 .IndexModNav .nav ul {

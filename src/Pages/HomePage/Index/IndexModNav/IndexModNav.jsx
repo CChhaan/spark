@@ -43,15 +43,17 @@ const IndexModNav = () => {
 
   return (
     <div className={classes.IndexModNav}>
-      <ul onScroll={handleScroll}>
-        {navData.map((item) => (
-          <li>
-            <IndexModNavIcon
-              icon={item.icon}
-              name={item.name} />
-          </li>
-        ))}
-      </ul>
+      <div onScroll={handleScroll} className={classes.nav}>
+        <ul>
+          {navData.map((item) => (
+            <li>
+              <IndexModNavIcon
+                icon={item.icon}
+                name={item.name} />
+            </li>
+          ))}
+        </ul>
+      </div>
       {/* 和导航栏绑定的滚动条 */}
       <div className={classes.scroll}>
         <div className={classes.scrollInner} style={{ transform: `translateX(${scrollPosition}px)` }}></div>

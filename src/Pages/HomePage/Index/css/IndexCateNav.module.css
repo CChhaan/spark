@@ -1,0 +1,31 @@
+.IndexCateNav {
+  position: absolute;
+  bottom: 0;
+  top: 245rem;
+  width: 355rem;
+  background-color: #fff;
+  margin: 12rem;
+}
+.IndexCateNav .nav {
+  overflow-x: scroll;
+  width: 323rem;
+  height: 28rem;
+  margin: 10rem auto;
+}
+.IndexCateNav .nav::-webkit-scrollbar {
+  display: none;
+}
+.IndexCateNav .nav ul {
+  width: 450rem;
+  display: flex;
+  justify-content: space-between;
+}
+.IndexCateNav .nav ul li {
+  font-size: 16rem;
+}
+.IndexCateNav .nav ul .typeli {
+  font-weight: bold;
+  color: red;
+  font-family: "楷体";
+  font-size: 20rem;
+}

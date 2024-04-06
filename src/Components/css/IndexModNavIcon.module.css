@@ -1,0 +1,8 @@
+.IndexModNavIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.IndexModNavIcon img {
+  padding-bottom: 3rem;
+}
