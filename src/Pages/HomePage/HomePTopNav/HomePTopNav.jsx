@@ -9,7 +9,7 @@ const HomePTopNav = () => {
   return (
     <div className={classes.HomePTopNav}>
       {/* logo图标-左 */}
-      <NavLink to='/'>
+      <NavLink to='/home/homepage'>
         <div className={classes.logo}>
           <h1>
             星火兴农
@@ -19,7 +19,7 @@ const HomePTopNav = () => {
 
       {/* 首页+短视频-中 */}
       <div className={classes.middle}>
-        <NavLink to='' className={({ isActive }) => { return isActive ? classes.active : null }}>首页</NavLink>
+        <NavLink to='/home/homepage' className={({ isActive }) => { return isActive ? classes.active : null }}>首页</NavLink>
         <NavLink to='/home/shortvideo' className={({ isActive }) => { return isActive ? classes.active : null }}>短视频</NavLink>
       </div>
 

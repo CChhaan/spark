@@ -6,7 +6,7 @@ import { NavLink, useMatch } from 'react-router-dom'
 
 const BottomItem = (props) => {
   // 检查路径
-  const match = useMatch(props.to);
+  const match = useMatch(`${props.to}/*`);
   // 检查路径是否匹配
   const isActive = match ? true : false;
   // 路径匹配与否对应不同的类名

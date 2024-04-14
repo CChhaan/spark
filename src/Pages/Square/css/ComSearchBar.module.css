@@ -1,0 +1,27 @@
+.ComSearchBar {
+  width: 310rem;
+  height: 25rem;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.ComSearchBar .icon {
+  margin: auto 14rem;
+}
+.ComSearchBar input {
+  border: none;
+  height: 20rem;
+  width: 200rem;
+  padding: 2.5rem;
+}
+.ComSearchBar button {
+  width: 43rem;
+  height: 25rem;
+  font-size: 14rem;
+  color: #fff;
+  border: none;
+  border-radius: 20rem;
+  background: #FFC300;
+}

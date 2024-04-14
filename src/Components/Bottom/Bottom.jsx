@@ -16,7 +16,7 @@ const Bottom = () => {
     <div className={classes.Bottom}>
       <ul>
         <li>
-          <BottomItem component={homeIcon} to={""}>首页</BottomItem>
+          <BottomItem component={homeIcon} to={"home"}>首页</BottomItem>
         </li>
         <li>
           <BottomItem component={commuteIcon} to={"square"}>广场</BottomItem>

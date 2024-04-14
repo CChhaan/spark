@@ -1,0 +1,13 @@
+.Index a {
+  margin: 125rem auto;
+  height: 83rem;
+  width: 200rem;
+  display: block;
+  text-align: center;
+  line-height: 80rem;
+  color: #000;
+  font-size: 30rem;
+  border-radius: 30rem;
+  background-color: #3aff13;
+  box-shadow: 5px 5px 5px green;
+}

@@ -46,7 +46,7 @@ const IndexModNav = () => {
       <div onScroll={handleScroll} className={classes.nav}>
         <ul>
           {navData.map((item) => (
-            <li>
+            <li key={item.name}>
               <IndexModNavIcon
                 icon={item.icon}
                 name={item.name} />

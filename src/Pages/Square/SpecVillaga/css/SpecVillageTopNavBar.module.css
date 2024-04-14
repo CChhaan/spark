@@ -1,0 +1,23 @@
+.SpecVillageTopNavBar {
+  display: flex;
+  justify-content: center;
+  margin: 13rem 17rem;
+  line-height: 21rem;
+}
+.SpecVillageTopNavBar .left {
+  height: 20rem;
+  width: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14rem;
+  margin-top: 2rem;
+}
+.SpecVillageTopNavBar .center {
+  font-size: 20rem;
+  margin-left: 90rem;
+  margin-right: 80rem;
+}
+.SpecVillageTopNavBar a {
+  color: #000;
+}

@@ -10,9 +10,8 @@ const HomePage = () => {
     <div className={classes.HomePage}>
       <HomePTopNav />
       <Routes>
-        <Route path='/home/' element={<Index />}></Route>
         <Route path='/*' element={<Index />}></Route>
-        <Route path='/home/shortvideo' element={<ShortVideo />}></Route>
+        <Route path='/shortvideo' element={<ShortVideo />}></Route>
       </Routes>
     </div>
   )
