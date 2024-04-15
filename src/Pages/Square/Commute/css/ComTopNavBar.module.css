@@ -1,10 +1,10 @@
-.SpecVillageTopNavBar {
+.ComTopNavBar {
   display: flex;
   justify-content: center;
   margin: 13rem 17rem;
   align-items: center;
 }
-.SpecVillageTopNavBar .left {
+.ComTopNavBar .left {
   height: 20rem;
   width: 50rem;
   display: flex;
@@ -13,11 +13,11 @@
   font-size: 14rem;
   margin-top: 2rem;
 }
-.SpecVillageTopNavBar .center {
+.ComTopNavBar .center {
   font-size: 20rem;
   margin-left: 90rem;
   margin-right: 80rem;
 }
-.SpecVillageTopNavBar a {
+.ComTopNavBar a {
   color: #000;
 }

@@ -1,12 +1,15 @@
 import React from 'react'
 import classes from '../css/IndexModNavIcon.module.css'
+import { NavLink } from 'react-router-dom'
 
-const IndexModNavIcon = ({icon,name}) => {
+const IndexModNavIcon = ({ icon, name }) => {
   return (
-    <div className={classes.IndexModNavIcon}>
+    <NavLink>
+      <div className={classes.IndexModNavIcon}>
       <img src={icon} alt={name} />
       {name}
-    </div>
+      </div>
+    </NavLink>
   )
 }
 

@@ -6,10 +6,10 @@ import {NavLink} from 'react-router-dom'
 const SpecVillageTopNavBar = () => {
   return (
     <div className={classes.SpecVillageTopNavBar}>
-      <div className={classes.left}>
+      <NavLink to="/home/homepage" className={classes.left}>
         <Home theme="outline" size="20" fill="#4a4a4a" />
         首页
-      </div>
+      </NavLink>
       <div className={classes.center}>
         特色村
       </div>
