@@ -1,0 +1,16 @@
+.MyTopNavBar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 34rem;
+  padding-right: 20rem;
+  margin-top: 6rem;
+}
+.MyTopNavBar h1 {
+  font-size: 16rem;
+}
+.MyTopNavBar .config {
+  display: flex;
+  margin-left: 82rem;
+  align-items: center;
+}

@@ -10,9 +10,9 @@ const ComTopNavBar = () => {
         <Home theme="outline" size="20" fill="#4a4a4a" />
         首页
       </NavLink>
-      <div className={classes.center}>
+      <h1 className={classes.center}>
         交流广场
-      </div>
+      </h1>
       <div className={classes.back}>
         <Config theme="outline" size="24" fill="#4a4a4a" />
       </div>

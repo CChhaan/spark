@@ -10,9 +10,9 @@ const SpecVillageTopNavBar = () => {
         <Home theme="outline" size="20" fill="#4a4a4a" />
         首页
       </NavLink>
-      <div className={classes.center}>
+      <h1 className={classes.center}>
         特色村
-      </div>
+      </h1>
       <NavLink to={"square"} className={classes.back}>&lt; 返回 </NavLink>
     </div>
   )

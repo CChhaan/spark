@@ -1,0 +1,23 @@
+.FunOpt {
+  width: 335rem;
+  margin: auto;
+  margin-top: 15rem;
+  background-color: #fff;
+  border-radius: 5rem;
+}
+.FunOpt li {
+  height: 40rem;
+  padding: 0 15rem;
+  list-style: disc inside;
+  border-bottom: 1rem solid #ccc;
+  margin: 2rem;
+}
+.FunOpt li a {
+  font-size: 16rem;
+  line-height: 40rem;
+  color: #000;
+  width: 100%;
+}
+.FunOpt :last-child {
+  border: none;
+}

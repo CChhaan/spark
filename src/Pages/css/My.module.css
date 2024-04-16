@@ -6,3 +6,16 @@
   left: 0;
   right: 0;
 }
+.My .AdressManage {
+  box-sizing: border-box;
+  width: 335rem;
+  border-radius: 5rem;
+  background: #ffffff;
+  margin: auto;
+  padding: 3rem 15rem;
+}
+.My .AdressManage a {
+  font-size: 16rem;
+  color: #000;
+  line-height: 25rem;
+}
