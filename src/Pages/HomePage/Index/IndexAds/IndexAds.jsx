@@ -1,10 +1,11 @@
 import React from 'react'
 import classes from '../css/IndexAds.module.css'
+import { NavLink } from 'react-router-dom'
 
 const IndexAds = () => {
   return (
-    <a className={classes.IndexAds} href='/'>
-    </a>
+    <NavLink className={classes.IndexAds}>
+    </NavLink>
   )
 }
 
