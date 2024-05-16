@@ -2,7 +2,7 @@ import React from 'react';
 import classes from '../css/Index.module.css';
 import IndexAds from './IndexAds/IndexAds';
 import IndexModNav from './IndexModNav/IndexModNav';
-import IndexCateNav from './IndexCateNav/IndexCateNav.1';
+import IndexCateNav from './IndexCateNav/IndexCateNav';
 
 const Index = () => {
   return (

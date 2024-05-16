@@ -10,6 +10,9 @@ const Commute = () => {
       <ComTopNavBar />
       <ComSearchBar />
       <ComModNav />
+      <div className={classes.no}>
+        --- 暂时还没有消息记录 ---
+      </div>
     </div>
   )
 }

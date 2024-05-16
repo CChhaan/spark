@@ -1,8 +1,41 @@
 .ProSumShow {
-  position: absolute;
-  bottom: 0;
-  top: 245rem;
-  width: 355rem;
+  width: 150rem;
+  height: 200rem;
   background-color: #fff;
-  margin: 12rem;
+  margin-bottom: 15rem;
+  overflow: hidden;
+  border-radius: 10rem;
+}
+.ProSumShow img {
+  width: 150rem;
+  height: 150rem;
+}
+.ProSumShow .name {
+  margin: 4rem;
+  font-size: 16rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: break-all;
+  white-space: nowrap;
+}
+.ProSumShow .detail {
+  display: flex;
+  justify-content: space-around;
+  font-size: 12rem;
+}
+.ProSumShow .detail .price {
+  color: #ff3333;
+  font-size: 12rem;
+  font-weight: 400;
+}
+.ProSumShow .detail .price span {
+  font-size: 14rem;
+  font-weight: 700;
+}
+.ProSumShow .detail .position {
+  width: 80rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: break-all;
+  white-space: nowrap;
 }

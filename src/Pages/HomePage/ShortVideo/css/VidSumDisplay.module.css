@@ -4,6 +4,8 @@
   height: 215rem;
   background-color: #fff;
   margin: 9rem 0 9rem 17rem;
+  border-radius: 10rem;
+  overflow: hidden;
 }
 .VidSumDisplay li .cover {
   position: relative;
