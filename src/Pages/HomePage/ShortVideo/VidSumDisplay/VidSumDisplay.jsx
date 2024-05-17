@@ -11,7 +11,7 @@ const VidSumDisplay = (props) => {
           <LocalTwo theme="outline" size="16" fill="#4a4a4a" strokeWidth={3}/>
             {props.position}
           </div>
-          <img src={props.cover} alt="" />
+          <img src={props.cover} alt={props.name} />
         </div>
 
         <h2 className={classes.name}>
