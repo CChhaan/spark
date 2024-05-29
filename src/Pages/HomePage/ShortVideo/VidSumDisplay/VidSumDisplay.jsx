@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from '../css/VidSumDisplay.module.css'
-import { Bloom, Local, LocalTwo } from '@icon-park/react'
+import { Bloom, LocalTwo } from '@icon-park/react'
 
 const VidSumDisplay = (props) => {
   return (

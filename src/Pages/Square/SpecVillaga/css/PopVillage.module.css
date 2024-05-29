@@ -1,0 +1,20 @@
+.PopVillage {
+  height: 300rem;
+}
+.PopVillage .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 315rem;
+  margin: 15rem auto 10rem ;
+}
+.PopVillage .top h3 {
+  font-size: 18rem;
+  font-weight: 500;
+}
+.PopVillage .top span {
+  font-size: 12rem;
+}
+.PopVillage .content {
+  margin: auto;
+}

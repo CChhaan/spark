@@ -1,0 +1,25 @@
+.VillageActivity {
+  margin: 10rem auto;
+  margin-bottom: 80rem;
+}
+.VillageActivity .top {
+  width: 315rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.VillageActivity .top h3 {
+  font-size: 18rem;
+  font-weight: 500;
+}
+.VillageActivity .top span {
+  font-size: 12rem;
+}
+.VillageActivity .content {
+  width: 350rem;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

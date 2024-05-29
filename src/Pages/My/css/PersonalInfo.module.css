@@ -1,8 +1,87 @@
 .PersonalInfo {
   height: 140rem;
   width: 336rem;
-  border-radius: 10px;
+  border-radius: 10rem;
   background: rgba(255, 255, 255, 0.5);
-  border-top: 2px solid #ffffff;
+  border-top: 2rem solid #ffffff;
   margin: 5rem auto;
+
+  .top {
+    display: flex;
+    justify-content: start;
+    margin-left: 25rem;
+    align-items: center;
+    height: 80rem;
+
+    .avatar {
+      border-radius: 50%;
+      overflow: hidden;
+      width: 55rem;
+      height: 55rem;
+
+      img {
+        width: 55rem;
+        height: 55rem;
+      }
+    }
+
+    .info {
+      margin-left: 10rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .name {
+        font-size: 16rem;
+      }
+
+      .level {
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+      }
+
+      .lv1 {
+        width: 40rem;
+        height: 17rem;
+
+        img {
+          width: 40rem;
+          height: 17rem;
+        }
+      }
+
+      .bar {
+        margin-left: 5rem;
+        height: 20rem;
+        display: flex;
+        align-items: center;
+        color: rgba(102, 102, 102, 1);
+        font-size: 12rem;
+
+        img {
+          width: 20rem;
+          height: 20rem;
+        }
+      }
+    }
+  }
+
+  .bottom {
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 60rem;
+      font-size: 16rem;
+
+      li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+      }
+    }
+  }
 }

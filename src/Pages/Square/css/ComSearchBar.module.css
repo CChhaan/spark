@@ -6,6 +6,7 @@
   border-radius: 20px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .ComSearchBar .icon {
   margin: auto 14rem;

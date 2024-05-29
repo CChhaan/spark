@@ -22,6 +22,8 @@ const VidCateNav = () => {
     case "最新":
       videos.sort((function (a, b) { return b.time - a.time }))
       break;
+    default:
+      break;
   }
 
   return (
